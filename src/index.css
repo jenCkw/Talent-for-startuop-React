@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+:root{
+  --bg-color: #FFEAC5;
+  --text-color: #555250;
+  --blue-violet: #701c50;
+  --banner-color: #d3935e;
+  
+}
+
 body{
   font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
