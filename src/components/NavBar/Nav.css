@@ -1,0 +1,54 @@
+header {
+    background-color: var(--color-white);
+    padding: 1em 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 4rem;
+}
+
+.nav{
+    display: flex;
+    gap: 1em;
+}
+
+.btn-secondary{
+    border: none;
+    padding: .6em;
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    border: .001em solid var(--blue-violet);
+    border-radius: 5px;
+    background-color: var(--color-white);
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.active{
+    background-color: var(--blue-violet);
+    color: var(--color-white);
+}
+
+@media (min-width: 45em) {
+    header{
+        padding: 1em 5em;
+    }
+
+    .logo{
+        height: 5em;
+    }
+
+    .btn-secondary{
+        font-size: 14px;
+        padding: .7em;
+        transition: ease-in-out .3s;
+    }
+
+    .btn-secondary:hover{
+        background-color: var(--blue-violet);
+        color: var(--color-white);
+    }
+}
