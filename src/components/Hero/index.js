@@ -11,7 +11,7 @@ function Hero() {
         <div className='hero-banner'>
             <div>
                 <p className='hero-title'>
-                    <span className='hero-text-big'>Boostez</span> votre Start-up avec <span className='hero-orange'>une solution numerique offerte</span>
+                    <span className='hero-text-big'>Boostez</span> votre Start-up avec <span className='hero-orange'>une solution numerique offerte.</span>
                 </p>
                 <p className='hero-text'>
                     vous etes une start-up participer a talent for startups challenges by Digital 
